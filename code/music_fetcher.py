@@ -30,7 +30,7 @@ ydl_opts = {
     }],
 
     # Nice-to-haves
-    'outtmpl': '%(title)s.%(ext)s',
+    'outtmpl': 'stored_mp3/%(title)s.%(ext)s',
     'noplaylist': True,
     'logger': MyLogger(),
     'progress_hooks': [my_hook],
